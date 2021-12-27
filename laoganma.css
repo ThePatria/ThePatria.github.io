@@ -1,0 +1,45 @@
+:root{
+    --bg: #000;
+    --bg2: #F5DEB3;
+}
+h1
+{
+    color: darkblue;
+}
+body
+{
+    background-color: black;
+    background-color: var(--bg, black);
+}
+button
+{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.square{
+    --bg2: #E2DFD2;
+}
+.square-test
+{
+    background-color: wheat;
+    background-color: var(--bg2, wheat);
+    margin: 20px 30px 20px 30px;
+}
+.setting
+{
+    text-align: center;
+    font-size: 18px;
+}
+.colorset
+{
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
